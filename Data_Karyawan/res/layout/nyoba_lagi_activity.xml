@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button" android:layout_column="0" android:textSize="8dp"
+                    android:background="@android:color/transparent"/>
+            <Button
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2" android:layout_column="1" android:textSize="8dp"
+                    android:background="@android:color/transparent"/>
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button3" android:layout_column="2" android:textSize="8dp"
+                    android:background="@android:color/transparent"/>
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button4" android:layout_column="3" android:textSize="8dp"
+                    android:background="@android:color/transparent"/>
+            <Button
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button5" android:layout_column="4" android:textSize="8dp"
+                    android:background="@android:color/transparent"/>
+            <Button
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button7" android:layout_column="6" android:textSize="8dp"
+                    android:background="@android:color/transparent"/>
+            <Button
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button8" android:layout_column="7" android:textSize="8dp"
+                    android:background="@android:color/transparent"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/outId2" android:layout_column="0" android:textSize="8dp"/>
+            <TextView android:layout_width="75dp" android:layout_height="wrap_content"
+                      android:id="@+id/outNama2" android:layout_column="1" android:textSize="8dp"/>
+            <TextView android:layout_width="50dp" android:layout_height="wrap_content"
+                      android:id="@+id/outTgl2" android:layout_column="2" android:textSize="8dp"/>
+            <TextView android:layout_width="75dp" android:layout_height="wrap_content"
+                      android:id="@+id/outAlm2" android:layout_column="3" android:textSize="8dp"/>
+            <TextView android:layout_width="10dp" android:layout_height="wrap_content"
+                      android:id="@+id/outLmKrj2" android:layout_column="4" android:textSize="8dp"/>
+            <TextView android:layout_width="50dp" android:layout_height="wrap_content"
+                      android:id="@+id/outTlp2" android:layout_column="6" android:textSize="8dp"/>
+            <TextView android:layout_width="45dp" android:layout_height="wrap_content"
+                      android:id="@+id/outGaj2" android:layout_column="7" android:textSize="8dp"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INPUT DATA KARYAWAN"
+            android:id="@+id/textView10" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp" android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true" android:id="@+id/tableLayout">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:id="@+id/textView11" android:layout_column="0" android:textSize="10dp"/>
+            <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/inId1" android:layout_column="1" android:textSize="8dp" android:hint="0"/>
+            <TextView android:layout_width="75dp" android:layout_height="wrap_content" android:text="LAMA BEKERJA"
+                      android:id="@+id/textView21" android:layout_column="4" android:textSize="10dp"/>
+            <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/inLmKrj1" android:layout_column="5" android:textSize="8dp" android:hint="0"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thn"
+                      android:id="@+id/textView23" android:layout_column="6" android:textSize="10dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA"
+                    android:id="@+id/textView12" android:layout_column="0" android:textSize="10dp"/>
+            <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/inNama1" android:layout_column="1" android:textSize="8dp"
+                    android:hint="Nama...."/>
+            <TextView android:layout_width="75dp" android:layout_height="wrap_content" android:text="NO. TELP/HP"
+                      android:id="@+id/textView16" android:layout_column="4" android:textSize="10dp"/>
+            <EditText android:layout_width="100dp" android:layout_height="30dp" android:inputType="number"
+                      android:ems="10" android:id="@+id/inTlp1" android:layout_column="5" android:textSize="8dp"
+                      android:hint="08100"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TANGGAL LAHIR"
+                    android:id="@+id/textView13" android:layout_column="0" android:textSize="10dp"/>
+            <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/inTglLahir1" android:layout_column="1" android:textSize="8dp"
+                    android:inputType="date" android:hint="DD-MM-YYYY"/>
+            <TextView android:layout_width="75dp" android:layout_height="wrap_content"
+                      android:text="GAJI" android:id="@+id/textView22" android:layout_column="4"
+                      android:textSize="10dp"/>
+            <EditText android:layout_width="100dp" android:layout_height="30dp" android:id="@+id/inGaji1"
+                      android:layout_column="5" android:textSize="8dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="ALAMAT"
+                    android:id="@+id/textView14" android:layout_column="0" android:textSize="10dp"/>
+            <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/inAlamat1" android:layout_column="1" android:textSize="8dp" android:hint="Alamat...."/>
+            <Button
+                    android:layout_width="75dp"
+                    android:layout_height="40dp"
+                    android:text="@string/btnHitungG1"
+                    android:id="@+id/btnHitungG1" android:layout_column="4" android:textSize="10dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/btnSimpan"
+                    android:id="@+id/btnSimpan" android:layout_column="1" android:textSize="10dp"/>
+        </TableRow>
+    </TableLayout>
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listKaryawan2" android:layout_below="@+id/tableLayout" android:layout_alignParentLeft="true"/>
+</RelativeLayout>

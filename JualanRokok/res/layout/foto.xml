@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="97dp"><TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ket"
+            android:id="@+id/ket"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:typeface="monospace"
+            android:background="@drawable/textedit" android:textColor="#ffffa802"/></ScrollView>
+    <DigitalClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jam" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:textColor="#fffffd01"/>
+    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/onof"
+            android:layout_marginTop="37dp" android:layout_below="@+id/jam" android:layout_alignLeft="@+id/jam"
+            android:checked="false" android:textOff="Hentikan" android:textOn="Lanjutkan"/>
+</RelativeLayout>

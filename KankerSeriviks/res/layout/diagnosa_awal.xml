@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Diagnosa Kanker Serviks" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="24dp"
+        android:text="Berikut gejala kanker serviks yang bisa anda jawab dan isikan tingkat keyakinan anda (0 - 1)?"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txtNama1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="18dp"
+        android:text="1. Apakah anda pernah melakukan hubungan sex di bawah umur 20th?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:text="@string/Ya1" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser1"
+        android:layout_marginTop="16dp"
+        android:text="2. Apakah anda melakukan hubungan seks dengan banyak mitra?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:text="@string/ya2" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ya2"
+        android:layout_marginTop="18dp"
+        android:text="3. Apakah anda memiliki banyak anak (lebih dari 5 anak dan melahirkan normal)?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:text="@string/ya3" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser3"
+        android:layout_marginTop="19dp"
+        android:text="4. Apakah anda memiliki riwayat keluarga kanker serviks?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView04"
+        android:text="@string/ya4" />
+
+    <EditText
+        android:id="@+id/cfuser2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cfuser1"
+        android:layout_alignTop="@+id/ya2"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <EditText
+        android:id="@+id/cfuser4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cfuser3"
+        android:layout_alignTop="@+id/ya4"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/lanjut1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfuser4"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lanjut1" />
+
+    <EditText
+        android:id="@+id/cfuser1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ya1"
+        android:layout_toLeftOf="@+id/lanjut1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <EditText
+        android:id="@+id/cfuser3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ya3"
+        android:layout_alignBottom="@+id/ya3"
+        android:layout_toLeftOf="@+id/lanjut1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+</RelativeLayout>

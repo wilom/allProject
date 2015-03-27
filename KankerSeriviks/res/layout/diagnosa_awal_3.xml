@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/cf3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtNama4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cf3"
+        android:layout_marginTop="19dp"
+        android:text="14. Apakah anda mengalami perdarahan tidak normal sesudah mati haid (menopause dan contact bleeding)?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/ya14" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser14"
+        android:layout_marginTop="14dp"
+        android:text="15. Apakah anda mengalami keluarnya cairan abnormal (kekuning-kuningan) berbau bercampur darah?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:text="@string/ya15" />
+
+    <EditText
+        android:id="@+id/cfuser15"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cfuser14"
+        android:layout_alignTop="@+id/ya15"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser15"
+        android:layout_marginTop="18dp"
+        android:text="16. Apakah anda mengalami nyeri saat berhubungan sex?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:text="@string/ya16" />
+
+    <EditText
+        android:id="@+id/cfuser16"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cfuser15"
+        android:layout_alignTop="@+id/ya16"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <Button
+        android:id="@+id/diagAwal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfuser16"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/diagAwal" />
+
+    <EditText
+        android:id="@+id/cfuser14"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ya14"
+        android:layout_toLeftOf="@+id/diagAwal"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+</RelativeLayout>

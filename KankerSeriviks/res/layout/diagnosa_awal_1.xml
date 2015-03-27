@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtNama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <CheckBox
+        android:id="@+id/ya5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/ya5" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser5"
+        android:layout_marginTop="17dp"
+        android:text="6. Apakah anda merokok (lebih dari 10 batang perhari)?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:text="@string/ya6" />
+
+    <EditText
+        android:id="@+id/cfuser6"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cfuser5"
+        android:layout_alignTop="@+id/ya6"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser6"
+        android:layout_marginTop="14dp"
+        android:text="7. Apakah anda kekurangan Diit/nutrisi : beta carotin, Vit C?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:text="@string/ya7" />
+
+    <EditText
+        android:id="@+id/cfuser7"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cfuser6"
+        android:layout_alignTop="@+id/ya7"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser7"
+        android:layout_marginTop="16dp"
+        android:text="8. Apakah anda penggunaan Kontrasepsi dalam Jangka Panjang (5 tahun lebih)?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:text="@string/ya8" />
+
+    <EditText
+        android:id="@+id/cfuser8"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cfuser7"
+        android:layout_alignTop="@+id/ya8"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser8"
+        android:layout_marginTop="14dp"
+        android:text="9. Apakah dayatahan tubuh anda berkurang?"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/cf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtNama2"
+        android:layout_marginTop="15dp"
+        android:text="5. Apakah anda memiliki penyakit hubungan seksual (trichomonas, CMV, HSV)?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView04"
+        android:text="@string/ya9" />
+
+    <Button
+        android:id="@+id/lanjut2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ya9"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lanjut2" />
+
+    <EditText
+        android:id="@+id/cfuser5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_toLeftOf="@+id/txtNama2"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <EditText
+        android:id="@+id/cfuser9"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cfuser8"
+        android:layout_alignTop="@+id/ya9"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

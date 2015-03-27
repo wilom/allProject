@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/cf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtNama3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <CheckBox
+        android:id="@+id/ya10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:text="@string/ya10" />
+
+    <CheckBox
+        android:id="@+id/ya11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:text="@string/ya11" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser10"
+        android:layout_marginTop="21dp"
+        android:text="11. Apakah anda mengidap nyeri panggul?"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser11"
+        android:layout_marginTop="21dp"
+        android:text="12. Apakah anda mengidap nyeri saat buang air kencing?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:text="@string/ya12" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cfuser12"
+        android:layout_marginTop="22dp"
+        android:text="13. Apakah anda mengidap keputihan (gatal, banyak dan berbau)?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/ya13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView04"
+        android:text="@string/ya13" />
+
+    <Button
+        android:id="@+id/lanjut3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfuser13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/lanjut3" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cf2"
+        android:layout_marginTop="26dp"
+        android:text="10. Apakah ibu anda pernah diberikan DES saat anda dalam kandungan?"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/cfuser10"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ya10"
+        android:layout_toLeftOf="@+id/lanjut3"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <EditText
+        android:id="@+id/cfuser11"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ya11"
+        android:layout_toLeftOf="@+id/lanjut3"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <EditText
+        android:id="@+id/cfuser12"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ya12"
+        android:layout_toLeftOf="@+id/lanjut3"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" />
+
+    <EditText
+        android:id="@+id/cfuser13"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ya13"
+        android:layout_toLeftOf="@+id/lanjut3"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1.0" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

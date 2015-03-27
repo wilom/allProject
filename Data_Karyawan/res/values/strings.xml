@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Data_Karyawan</string>
+    <string name="tombolSimpan">Simpan</string>
+    <string name="htgGaji">Hitung Gaji</string>
+    <string name="btnSimpan">SIMPAN</string>
+    <string name="btnHitungG1">Hitung Gaji</string>
+    <string name="btnKe1">Menuju Ke Input</string>
+</resources>

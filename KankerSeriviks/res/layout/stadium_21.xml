@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtStdNama1"
+        android:layout_marginTop="24dp"
+        android:text="4. Apakah menstruasi anda tidak lancar?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/yaS24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/yaS24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/yaS24"
+        android:layout_marginTop="14dp"
+        android:text="5. Apakah anda mengalami lemah dan lesu?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/yaS25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:text="@string/yaS24" />
+
+    <TextView
+        android:id="@+id/txtStdNama1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/persenStd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/diagStd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/yaS25"
+        android:text="@string/diagStd2" />
+
+    <Button
+        android:id="@+id/kembali1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/diagStd2"
+        android:layout_toRightOf="@+id/diagStd2"
+        android:text="@string/kembali1" />
+
+    <TextView
+        android:id="@+id/hasilDiag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/diagStd2"
+        android:layout_marginTop="18dp"
+        android:text="@string/hasilDiag2" />
+
+    <Button
+        android:id="@+id/btnStadium3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:text="@string/btnStadium3" />
+
+</RelativeLayout>

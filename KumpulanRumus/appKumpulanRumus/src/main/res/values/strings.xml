@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KumpulanRumus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnLayang">Layang-Layang</string>
+    <string name="btnKetupat">Belah Ketupat</string>
+    <string name="btnGenjang">Jajar Genjang</string>
+    <string name="btnTiga">Segi Tiga</string>
+    <string name="btnPersegi">Persegi</string>
+    <string name="btnPanjang">Persegi Panjang</string>
+
+</resources>

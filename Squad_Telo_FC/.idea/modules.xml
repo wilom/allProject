@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sepak_Bola_Data/Sepak_Bola_Data.iml" filepath="$PROJECT_DIR$/Sepak_Bola_Data/Sepak_Bola_Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Squad_Telo_FC.iml" filepath="$PROJECT_DIR$/Squad_Telo_FC.iml" />
+    </modules>
+  </component>
+</project>

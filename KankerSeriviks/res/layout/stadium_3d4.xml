@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Diagnosa Stadium 3 &amp; 4" />
+
+    <TextView
+        android:id="@+id/txtNamaStd34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtNamaStd34"
+        android:layout_marginTop="14dp"
+        android:text="1. Apakah anda setiap berhubungan seks berdarah (Contact Bleeding)?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/yaS31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:text="@string/yaS31" />
+
+    <CheckBox
+        android:id="@+id/yaS33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:text="@string/yaS33" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/yaS31"
+        android:text="2. Apakah anda mengidap keputihan?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/yaS32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:text="@string/yaS32" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/yaS32"
+        android:text="3. Apakah anda mengidap gangguan berkemih?"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/yaS33"
+        android:text="4. Apakah anda mengidap gangguan pada Ginjal?"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/yaS4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:text="@string/yaS33" />
+
+    <Button
+        android:id="@+id/diagStadium34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/yaS4"
+        android:text="@string/diagStadium34" />
+
+    <TextView
+        android:id="@+id/hasilS34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/diagStadium34"
+        android:layout_marginTop="21dp"
+        android:text="@string/hasilS34" />
+
+    <Button
+        android:id="@+id/kembali2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hasilS34"
+        android:layout_alignRight="@+id/TextView03"
+        android:text="@string/kembali2" />
+
+</RelativeLayout>

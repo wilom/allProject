@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu Utama Data Karyawan"
+            android:id="@+id/textView18" android:layout_gravity="center_horizontal" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" android:textColor="#ff910aff" android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnKe1"
+            android:id="@+id/btnKe1"
+            android:layout_marginTop="85dp" android:layout_below="@+id/textView18"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+

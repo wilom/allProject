@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KankerSeriviks</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btnKanker">Diagnosa Kanker Serviks</string>
+    <string name="btnInfo">Info Kanker Serviks</string>
+    <string name="btnTentang">Tentang</string>
+    <string name="Ya1">Ya</string>
+    <string name="ya2">Ya</string>
+    <string name="ya3">Ya</string>
+    <string name="ya4">Ya</string>
+    <string name="lanjut1">Lanjut</string>
+    <string name="ya5">Ya</string>
+    <string name="ya6">Ya</string>
+    <string name="ya7">Ya</string>
+    <string name="ya8">Ya</string>
+    <string name="ya9">Ya</string>
+    <string name="lanjut2">Lanjut</string>
+    <string name="ya10">Ya</string>
+    <string name="ya11">Ya</string>
+    <string name="ya12">Ya</string>
+    <string name="ya13">Ya</string>
+    <string name="lanjut3">Lanjut</string>
+    <string name="ya14">Ya</string>
+    <string name="ya15">Ya</string>
+    <string name="ya16">Ya</string>
+    <string name="diagAwal">Diagnosa</string>
+    <string name="kembali">Kembali Ke Awal</string>
+    <string name="hasilAwal">Kesimpulan :</string>
+    <string name="btnStadium">Stadium</string>
+    <string name="yaS21">Ya</string>
+    <string name="yaS22">Ya</string>
+    <string name="yaS23">Ya</string>
+    <string name="diagStd2">Diagnosa</string>
+    <string name="lanjutStd">Lanjut</string>
+    <string name="yaS24">Ya</string>
+    <string name="kembali1">Kembali Ke Awal</string>
+    <string name="hasilDiag2">Kesimpulan :</string>
+    <string name="btnStadium3">Stadium 3</string>
+    <string name="btnOff">Keluar</string>
+    <string name="yaS31">Ya</string>
+    <string name="yaS32">Ya</string>
+    <string name="yaS33">Ya</string>
+    <string name="diagStadium34">Diagnosa</string>
+    <string name="kembali2">Kembali Ke Awal</string>
+    <string name="hasilS34">Kesimpulan :</string>
+    <string name="infoServiks">Kanker serviks adalah salah satu penyakit yang beresiko pada wanita. 
+    Human Virus Papilloma (HVP) 16 dan 18 adalah penyebab dari kanker serviks. 
+    Virus ini sering kali tidak menimbulkan gejala, 
+    sehingga banyak orang tidak mengetahui bahwa mereka terkena kanker serviks dan 
+    banyak pula orang dapat menularkan HPV tanpa menyadarinya. 
+    Perjalanan dari infeksi HPV hingga menjadi kanker memakan waktu yang cukup lama, yaitu 10 hingga 20 tahun. 
+    Akibat yang ditimbulkan kanker serviks ini diantaranya berupa penurunan harapan hidup, lamanya penderitaan, 
+    dan tingginya biaya pengobatan. Saat ini penyakit kanker serviks menempati peringkat teratas diantara 
+    berbagai jenis kanker yang menyebabkan kematian pada perempuan di dunia. 
+    Di Indonesia setiap tahun terdeteksi lebih dari 15.000 kasus kanker serviks, 
+    dan kira-kira sebanyak 8.000 kasus diantaranya berakhir dengan kematian. 
+    Menurut World Health Organization (WHO), Indonesia merupakan negara dengan jumlah 
+    penderita kanker serviks yang tertinggi di dunia (Lusiana, 2013). 
+    Hal ini disebabkan oleh kurangnnya akan pengetahuan tentang gejala kanker serviks, 
+    keterlambatan dalam pemerikasaan, minimnya media yang mudah digunakan untuk mendiagnosa kanker serviks secara dini. </string>
+    <string name="kembaliInfo">Kembali</string>
+    <string name="kembaliTentang">Kemabali</string>
+
+
+</resources>

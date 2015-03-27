@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Squad_Telo_FC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnSimpan">SIMPAN</string>
+    <string name="btnKembali">KEMBALI</string>
+    <string name="btnHapus">HAPUS</string>
+    <string name="btnEdit">EDIT</string>
+
+</resources>
